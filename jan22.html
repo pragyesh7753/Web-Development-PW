@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Video</title> -->
+    <!-- <title>Audio | MP3</title> -->
+    <!-- <title>Table</title> -->
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <h1>Loading Video</h1>
+    <video src="https://player.vimeo.com/external/551718299.sd.mp4?s=7fac688f051f8fa55660df3d9b14f1943a11651e&profile_id=164&oauth2_token_id=57447761" controls autoplay muted height="500px" width="600px">Video</video>
+    <video controls>
+        <source src="https://player.vimeo.com/external/637210675.sd.mp4?s=d491d0b3c463e071ea7443e1c6fa1780c7cf7c25&profile_id=165&oauth2_token_id=57447761">
+        <source src="">
+    </video> -->
+
+    <!-- Audio Learning -->
+    <!-- <audio src="Ruthless.mp3" controls autoplay muted> My audio</audio>
+    <audio controls autoplay muted>
+        <source src="Ruthless.mp3">
+        <source src="">
+    </audio> -->
+
+    <!-- Table Learning -->
+    <!-- <table border cellpadding="16px" cellspacing="5px" bordercolor="red" bgcolor="yellow">  but it is not a good practice to use bgcolor and bordercolor in HTML
+        <tr>
+            <th>Sr. No</th>
+            <th>Sub 1</th>
+            <th>Sub 2</th>
+            <th>Sub 3</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>English</td>
+            <td colspan="2">Science</td>
+            </tr>
+        <tr>
+            <td>2</td>
+            <td>English</td>
+            <td>Science</td>
+            <td rowspan="2">Computer</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>English</td>
+            <td>Science</td>
+        </tr>
+    </table> -->
+
+    <!-- Form Learning -->
+    <form method="get" target="_blank">
+    <!-- <form method="post" target="_blank" action="/signup"> -->
+        <fieldset>
+            <legend>User details !!</legend>
+        <label for="name">Please enter you name: </label>
+        <input type="text" id="name" name="username">
+        <br>
+        <label for="address">Please enter your address:</label>
+        <textarea name="useraddress" id="address" cols="30" rows="10"></textarea>
+        <br>
+        <label for="dob">DOB: </label>
+        <input type="date" id="dob" name="userdob">
+        <br>
+        <label for="password">Enter your password: </label>
+        <input type="password" id="password" name="userpassword">
+        <br>
+        Select Gender:
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+        <br>
+        <label for="transgender">Transgender</label>
+        <input type="radio" name="gender" value="transgender">
+        <br>
+        Selet favourite movies: 
+        <br>
+        <label for="avengers">Avengers</label>
+        <input type="checkbox" name="avengers" id="avengers" value="avengers">
+        <br>
+        <label for="thor">Thor</label>
+        <input type="checkbox" name="thor" id="thor" value="thor">
+        <br>
+        <label for="ironman">Ironman</label>
+        <input type="checkbox" name="ironman" id="ironman" value="ironman">
+        <br>
+        <input type="submit">
+        </fieldset>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-columns: minmax(10px, 2fr) minmax(10px, 1fr) minmax(10px, 1fr); */
+            grid-template-rows: 600px 100px 100px;  
+            /* grid-area: header header header;   */
+            /* gap: 10px; */
+            /* row-gap: 10px;
+            column-gap: 10px; */
+            /* justify-items: end;  x-axis
+            align-items: center;    y-axis*/
+        }
+      .box {
+        /* height: 100px;
+        width: 100px; */
+        /* margin: 10px; */
+      }
+      .box1 {
+        background-color: red;
+        /* border: 2px solid black; */
+        /* align-self: center; */
+        /* justify-self: center; */
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .box2 {
+        background-color: yellow;
+      }
+      .box3 {
+        background-color: green;
+      }
+    </style> -->
+    <title>Grid</title>
+    <style>
+      .container{
+        display: grid;
+        /* height: 700px; */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+      }
+      .box{
+        /* height: 100px;
+        width: 100px; */
+      }
+      .box1{
+        background-color: red; 
+        overflow: hidden;
+        /* grid-row-start: 1;
+        grid-row-end: 3; */
+      }
+      .box2{
+        /* background-color: green; */
+        overflow: hidden;
+      }
+      
+      .box3{
+        /* background-color: yellow; */
+        overflow: hidden;
+      }
+      .box4{
+        /* background-color: pink; */
+        overflow: hidden;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      .box5{
+        /* background-color: brown; */
+        overflow: hidden;
+      }
+      .box6{
+        /* background-color: purple; */
+        overflow: hidden;
+      }
+      .box7{
+        /* background-color: violet; */
+        overflow: hidden;
+      }
+      .box8{
+        /* background-color: yellowgreen; */
+        overflow: hidden;
+      }
+      .box9{
+        /* background-color: magenta; */
+        overflow: hidden;
+      }
+      /* .box10{
+        overflow: hidden;
+
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- Grid System -->
+    <!-- <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+    </div> -->
+    <!-- Grid Alnum -->
+    <div class="container">
+      <!-- <div class="box box1"><img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Computer 1">
+      </div> -->
+      <div class="box box1"><img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 1">
+      </div>
+      <div class="box box2"><img src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 2"></div>
+      <div class="box box3"><img src="https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 3"></div>
+      <div class="box box4"><img src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 4"></div>
+      <div class="box box5"><img src="https://images.pexels.com/photos/4260477/pexels-photo-4260477.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 5"></div>
+      <div class="box box6"><img src="https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 6"></div>
+      <div class="box box7"><img src="https://images.pexels.com/photos/2481177/pexels-photo-2481177.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 7"></div>
+      <div class="box box8"><img src="https://images.pexels.com/photos/1181216/pexels-photo-1181216.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 8"></div>
+      <div class="box box9"><img src="https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Computer 9"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>CSS Position</title> -->
+    <!-- <style>
+        .main{
+            border: 2px solid red;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+        .box1{
+            background-color: red;
+            border: 1px solid black;
+        }
+        .box2{
+            background-color: yellow;
+            /* position: fixed;
+            bottom: 0;
+            right: 10px;
+            border-radius: 50%; */
+            position: relative;
+            top: 20px;
+            left: 25px;
+            border: 1px solid black;
+        }
+        .box3{
+            background-color: blue;
+            /* position: sticky;
+            top: 1px; */
+            border: 1px solid black;
+        }
+    </style> -->
+    <title>Overflow and Z-index</title>
+    <style>
+        p{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            overflow: auto;
+        }
+        .one{
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            border: 2px solid red;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+        .two{
+            height:50px;
+            width: 50px;
+            background-color: yellow;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top, Bottom, Right, Left -->
+    <!-- Static, Sticky, Fixed, Relative, Absolute  -->
+    <!-- CSS Position -->
+    <!-- <div class="main">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        
+    </div> -->
+    <!-- Overflow -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quod facilis provident, aut aliquam deserunt aliquid dolores commodi, eligendi eos perferendis itaque laudantium libero nam delectus quidem fugiat optio nostrum, qui pariatur. Ad earum corrupti, officiis pariatur voluptatum harum architecto? Delectus, necessitatibus qui. Maxime, ducimus? Incidunt nam tempore adipisci nemo magni dicta, voluptatem minima ipsa asperiores. Est, veniam molestiae, suscipit omnis aspernatur excepturi dolor quo odit unde, dolores hic corporis commodi in. Voluptate esse quidem saepe beatae magnam temporibus voluptates placeat delectus veritatis reprehenderit qui, cumque nostrum quasi recusandae consequatur. Nesciunt quod quam impedit et veniam sit. Et, fugit hic.</p> -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus!</p>
+    <!-- Z-index -->
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>

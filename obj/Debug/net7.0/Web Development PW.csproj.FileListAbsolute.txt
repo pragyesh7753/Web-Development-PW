@@ -1,0 +1,14 @@
+D:\Web Development PW\bin\Debug\net7.0\Web Development PW.exe
+D:\Web Development PW\bin\Debug\net7.0\Web Development PW.deps.json
+D:\Web Development PW\bin\Debug\net7.0\Web Development PW.runtimeconfig.json
+D:\Web Development PW\bin\Debug\net7.0\Web Development PW.dll
+D:\Web Development PW\bin\Debug\net7.0\Web Development PW.pdb
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.AssemblyInfoInputs.cache
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.AssemblyInfo.cs
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.csproj.CoreCompileInputs.cache
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.dll
+D:\Web Development PW\obj\Debug\net7.0\refint\Web Development PW.dll
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.pdb
+D:\Web Development PW\obj\Debug\net7.0\Web Development PW.genruntimeconfig.cache
+D:\Web Development PW\obj\Debug\net7.0\ref\Web Development PW.dll

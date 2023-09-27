@@ -1,0 +1,68 @@
+/* body{
+    background-color: #808080;
+    color: white;
+} */
+/* Universal Selector */
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+/* Element Selector */
+/* h1{
+  color: #808081;
+} */
+/* p{
+    color: red;
+} */
+/* Class Selector */
+/* .para{
+    color: rgb(107, 85, 85)
+} */
+/* .hello{
+    font-size: 60px;
+} */
+/* ID Selector */
+/* #id1{
+    color: whitesmoke;
+    background-color: black;
+} */
+/* Selector List */
+/* .class1,.class7,.class10{
+    
+} */
+/* Descendant Selector */
+/* main p{
+    color: red;
+} */
+/* Child Selector */
+/* h1>p{
+    color: blue;
+} */
+/* Adjacent Sibling Selector */
+/* section + p{
+    color: red;
+} */
+/* General Sibling Selector */
+/* section ~ p{
+    color: rgb(255, 181, 20);
+} */
+/* Attribute Selector */
+/* [target=_blank]{
+    color: pink;
+    text-decoration: none;
+} */
+/* [attribute~="value"] Selector */
+/* [alt~="PW"]{
+    background-color: black;
+} */
+
+/* Fonts */
+/* body{
+    background-color: #808080;
+    font-family: 'Tilt Prism', cursive;
+}
+p{
+    font-family: 'Smokum', cursive;
+} */
+
+/* Colors */
