@@ -6,7 +6,7 @@ const twoArray = [5, 6, 7, 8]
 // const threeArray=[oneArray,twoArray]
 
 const threeArray = [...oneArray, ...twoArray]
-// console.log(threeArray);
+console.log(threeArray);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 function testOne() {
@@ -64,5 +64,5 @@ console.log(newSet);
 
 // Set difference
 function setDifference(set A, set B) {
-
+    [...setA].filter(el => !setB.has(el))
 }
