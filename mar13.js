@@ -63,6 +63,21 @@ console.log(newSet);
 // console.log(newSet.has(9));
 
 // Set difference
-function setDifference(set A, set B) {
-    [...setA].filter(el => !setB.has(el))
+function setDifference(setA, setB) {
+    return new Set([...setA].filter(el => !setB.has(el)))
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+// Map
+
+let map = new Map()
+console.log(map.size);
+let arr = [
+    [1, "Mithun"],
+    [2, "Alka"],
+    [3, "Prabir"],
+    [4, "Shivam"],
+    [5, "Vinay"],
+];
+arr.map((arrayItem) => map.set(arrayItem[0], arrayItem[1]))
+console.log(map);
